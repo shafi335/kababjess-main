@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kababjees Restaurant</title>
+  <link rel="icon" type="image/png" href="logo.jpeg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .active:hover {
+      opacity: 0.5;
+      color: yellow;
+    }
+    .nav-link:hover {
+      opacity: 0.5;
+    }
+    .nav2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-weight: bold;
+      font-size: 25px;
+      background: transparent;
+    }
+    .nav2 li {
+      float: left;
+    }
+    .nav2 li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .nav2 li a:hover {
+      background-color: #333;
+    }
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+    }
+    .row {
+      margin: 0 -5px;
+    }
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      padding: 16px;
+      text-align: center;
+      background: #f1f1f1;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+    .map {
+      font-size: 100px;
+      padding: 50px;
+      transition: transform 0.2s;
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+    }
+    .map:hover {
+      opacity: 0.5;
+      transform: scale(1.5);
+    }
+    .loc a {
+      text-decoration: none;
+      color: white;
+    }
+    .loc a:hover {
+      opacity: 0.4;
+      color: gold;
+    }
+    .btni:hover {
+      opacity: 0.4;
+      color: yellow;
+    }
+    .footer {
+  background-color: #111; /* Dark background */
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #f0c14b; /* Golden Yellow */
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.order-btn {
+  background-color: #f0c14b;
+  border: none;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  background-color: #000;
+}
+
+.footer-bottom .brand {
+  color: #f0c14b;
+}
+
+  </style>
+</head>
+
+<body>
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border border-secondary border-start-0 border-end-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Kababjees</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Phone: 021 111 666 888</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Mail: marketing@gmail.com</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-danger me-2" type="button"><i class="bi bi-facebook"></i></button>
+          <button class="btn btn-outline-danger" type="button"><i class="bi bi-geo-alt-fill"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Second Menu Nav -->
+  <nav class="nav2 sticky-top bg-dark">
+    <ul class="container">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a class="active" href="#about">About Us</a></li>
+      <li><a class="active" href="#menu">Menu</a></li>
+      <li><a href="#"><img src="images.png" alt="Logo" width="150" height="70"></a></li>
+      <li><a class="active" href="#order">Order Online</a></li>
+      <li><a class="active" href="#bank">Bank Discount</a></li>
+      <li><a class="active" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content Sections -->mshafiahmed555@.
+
+  <section class="text-center text-white mt-5">
+    <h1>THE BEST PLACE TO REJOICE</h1>
+    <h2>VARIETY OF CUISINES</h2>
+  </section>
+
+  <section id="about" class="bg-dark text-white p-5">
+    <h3 class="text-center">About Us</h3>
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <img src="download (1).jpg" alt="About Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-5">
+        <p>We welcome you to explore our taste of the world, in continental and Chinese delights and that's even before you get to the variety and excellence, of our barbecue grill. With warmth service rarely experienced, it is a perfect place of rejoice with family, to soak in the relaxing decor and with deep desire to revisit for once, in never enough! Now with our network of four branches across the city of lights, it is possible to experience the magic, whilst collect the best of memories much more close to home.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="bg-dark text-white text-center p-5">
+    <h3>Our Specialist</h3>
+    <p>Some Of Our Best Specialist Menu</p>
+    <div class="row">
+      <!-- Menu Items -->
+      <div class="column"><div class="card"><img src="images (1).jpg" alt=""><a href="#" class="btn btn-warning mt-3">ORDER ONLINE</a></div></div>
+      <div class="column"><div class="card"><img src="images (2).jpg" alt=""><a href="#" class="btn btn-warning mt-3">ORDER ONLINE</a></div></div>
+      <div class="column"><div class="card"><img src="images (3).jpg" alt=""><a href="#" class="btn btn-warning mt-3">ORDER ONLINE</a></div></div>
+      <div class="column"><div class="card"><img src="download (2).jpg" alt=""><a href="#" class="btn btn-warning mt-3">ORDER ONLINE</a></div></div>
+    </div>
+  </section>
+
+  <section id="order" class="text-center bg-black text-white p-5">
+    <h3>CALL NOW</h3>
+    <p><a href="tel:021111666888" class="text-warning">021-111-666-888</a></p>
+    <a href="#" class="btn btn-warning">ORDER ONLINE</a>
+  </section>
+
+  <section id="bank" class="bg-dark text-center text-white p-5">
+    <h3>BANK DISCOUNT</h3>
+    <div class="row">
+      <div class="column"><div class="card"><img src="download (3).jpg" alt=""></div></div>
+      <div class="column"><div class="card"><img src="images (5).jpg" alt=""></div></div>
+      <div class="column"><div class="card"><img src="BOP-new-discount.jpg" alt=""></div></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="bg-black text-white text-center p-5">
+    <h3>GALLERY</h3>
+    <div class="row">
+      <div class="column"><div class="card"><img src="images (8).jpg" alt=""></div></div>
+      <div class="column"><div class="card"><img src="images (9).jpg" alt=""></div></div>
+      <div class="column"><div class="card"><img src="images (6).jpg" alt=""></div></div>
+      <div class="column"><div class="card"><img src="download (6).jpg" alt=""></div></div>
+    </div>
+  </section>
+
+  <section class="text-center text-white p-5" style="background: #2f2b2b;">
+    <h3>LOCATIONS</h3>
+    <div class="row">
+      <div class="column"><img src="images (14).jpg" class="map" alt=""><h3>Shahid-E-Milat Road</h3></div>
+      <div class="column"><img src="images (10).jpg" class="map" alt=""><h3>Highway</h3></div>
+      <div class="column"><img src="images (11).jpg" class="map" alt=""><h3>Do-Darya</h3></div>
+      <div class="column"><img src="download (7).jpg" class="map" alt=""><h3>Hyderabad</h3></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center bg-black text-white p-4">
+    <p>2024 <span class="text-warning">Kababjees</span> All rights reserved. Powered by <span class="text-warning">Indolj.pk</span></p>
+  </footer>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-section about-us">
+        <h3>ABOUT US</h3>
+        <p>We welcome you to explore our taste of the world, in continental and Chinese delights and that’s even before you get to the variety and excellence, of our barbecue grill.</p>
+        <div class="social-icons">
+          <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+          <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+      </div>
+  
+      <div class="footer-section contact-us">
+        <h3>CONTACT US</h3>
+        <p><a href="mailto:marketing@kabajees.com">marketing@kabajees.com</a></p>
+        <p><a href="tel:021111666111">021 111 666 111</a></p>
+      </div>
+  
+      <div class="footer-section work-time">
+        <h3>WORK TIME</h3>
+        <p>Monday – Sunday</p>
+        <p>5 PM – 1 AM</p>
+        <button class="order-btn">ORDER ONLINE</button>
+      </div>
+  
+      <div class="footer-section locations">
+        <h3>LOCATIONS</h3>
+        <ul>
+          <li>DO DARYA</li>
+          <li>HYDERABAD</li>
+          <li>SHAHEED-E-MILLAT</li>
+          <li>HIGHWAY</li>
+          <li>LAHORE</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>2025 <span class="brand">Kababjees</span> All rights reserved. Powered by Indolj.pk</p>
+    </div>
+  </footer>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="kababjess"
+    agent-id="3370537f-21bb-45ac-b5cc-e9b3db12aa77"
+    language-code="en"
+  ></df-messenger>
+</body>
+</html>

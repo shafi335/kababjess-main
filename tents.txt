@@ -1,0 +1,123 @@
+📋 Ready-Made Dialogflow Intents + Responses for Kababjees:
+1. Intent: Menu Inquiry
+User Says:
+
+What dishes do you have?
+
+Show me your menu.
+
+What's your specialty?
+
+Bot Response:
+
+"At Kababjees, we offer a wide range of delicious cuisines including Continental, Chinese, and of course, our famous BBQ! 🍗
+You can explore our full menu here: [Menu Link] or would you like me to suggest some of our best sellers?"
+
+2. Intent: Order Online
+User Says:
+
+How can I order online?
+
+I want to place an order.
+
+Can I order from the website?
+
+Bot Response:
+
+"Absolutely! 🚀 You can order online directly from our website.
+Click here to start your order: [Order Online Link]
+Need help choosing? I can suggest popular items!"
+
+3. Intent: Branch Locations
+User Says:
+
+Where are your branches?
+
+Do you have a branch in Lahore?
+
+Address for Do Darya branch?
+
+Bot Response:
+
+"We have branches at:
+📍 Shahid-e-Millat Road
+📍 Do Darya
+📍 Highway
+📍 Hyderabad
+📍 Lahore
+Would you like directions to the nearest one?"
+
+4. Intent: Bank Discounts
+User Says:
+
+Are there any bank discounts?
+
+Which banks are offering deals?
+
+Bank promotion available?
+
+Bot Response:
+
+"Yes! 🎉 We have exciting discounts with select banks.
+Enjoy special discounts when you pay with partnered bank cards.
+Check the full details here: [Bank Discount Page Link]"
+
+5. Intent: Contact Info
+User Says:
+
+What's your phone number?
+
+How can I contact you?
+
+Email address please?
+
+Bot Response:
+
+"You can reach us at 📞 021 111 666 888
+Or email us at 📧 marketing@kabajees.com
+We're here to help with any inquiries!"
+
+6. Intent: Work Hours
+User Says:
+
+Are you open now?
+
+What are your timings?
+
+When do you close?
+
+Bot Response:
+
+"Our working hours are 🕔 5 PM to 1 AM, Monday to Sunday.
+Planning a visit? Let me help you with reservations too!"
+
+7. Intent: About Kababjees
+User Says:
+
+Tell me about Kababjees.
+
+What are you famous for?
+
+History of Kababjees?
+
+Bot Response:
+
+"Kababjees brings together world flavors under one roof — from Continental to Chinese delights, and legendary BBQ! 🔥
+With multiple branches across Karachi and beyond, we promise amazing food and memorable experiences."
+
+8. Intent: Table Reservation
+User Says:
+
+Can I reserve a table?
+
+I want to book a party.
+
+Do you accept reservations?
+
+Bot Response:
+
+"We'd love to host you! 🎉
+Please call us at 📞 021 111 666 888 for table reservations and event bookings.
+For large gatherings, early booking is recommended!"
+
+ 
